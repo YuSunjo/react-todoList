@@ -1,0 +1,30 @@
+.home {
+  background-color: rgba(228, 224, 224, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home__header {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home__title {
+  text-align: center;
+  font-size: 40px;
+  margin: 40px 0;
+}
+
+.home__text {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  opacity: 0.4;
+}
